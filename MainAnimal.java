@@ -8,13 +8,13 @@ public class MainAnimal {
         c.criar(c2);
         c.criar(c3);
         for(Cachorro item: c.listar()) {
-            System.out.println("Id: "+item.getId()+" - Espécie: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Porte: "+item.getPorte()+" - Peso: "+item.getPeso());
+            System.out.println("Id: "+item.getId()+" - Raça: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Porte: "+item.getPorte()+" - Peso: "+item.getPeso());
         }
         System.out.println("-----------------------------------------------------------------");
         System.out.println("Excluir o cachorro de id igual a 2");
         c.excluir(2L);
         for(Cachorro item: c.listar()) {
-            System.out.println("Id: "+item.getId()+" - Espécie: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Porte: "+item.getPorte()+" - Peso: "+item.getPeso());
+            System.out.println("Id: "+item.getId()+" - Raça: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Porte: "+item.getPorte()+" - Peso: "+item.getPeso());
         }
 
     if(c.buscar(3L) == null)
@@ -36,13 +36,13 @@ public class MainAnimal {
         g.criar(g2);
         g.criar(g3);
         for(Gato item: g.listar()) {
-            System.out.println("Id: "+item.getId()+" - Espécie: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Data nascimento: "+item.getDataNascimento()+" - Peso: "+item.getPeso());
+            System.out.println("Id: "+item.getId()+" - Raça: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Data nascimento: "+item.getDataNascimento()+" - Peso: "+item.getPeso());
         }
         System.out.println("-----------------------------------------------------------------");
         System.out.println("Excluir o gato de id igual a 2");
         g.excluir(2L);
         for(Gato item: g.listar()) {
-            System.out.println("Id: "+item.getId()+" - Espécie: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Data nascimento: "+item.getDataNascimento()+" - Peso: "+item.getPeso());
+            System.out.println("Id: "+item.getId()+" - Raça: "+item.getRaca()+ " - Nome: "+item.getNome()+" = Data nascimento: "+item.getDataNascimento()+" - Peso: "+item.getPeso());
         }
 
     if(g.buscar(3L) == null)
