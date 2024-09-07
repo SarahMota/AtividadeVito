@@ -26,7 +26,7 @@ public class Cachorro extends AnimalAbs implements AnimalInt<Cachorro> {
         for(int i=0; i<this.lista.size(); i++) {
             if(this.lista.get(i).getId().equals(animal.getId())){
                 this.lista.get(i).setRaca(animal.getRaca());
-                this.lista.get(i).setRaca(animal.getRaca());
+                this.lista.get(i).setPorte(animal.getPorte());
                 this.lista.get(i).setNome(animal.getNome());
                 this.lista.get(i).setPeso(animal.getPeso());
                 break;
